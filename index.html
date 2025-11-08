@@ -1,29 +1,569 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Creative Portfolio - Graphic Designer & UI/UX Expert</title>
-    <meta name="description" content="Professional graphic designer and UI/UX specialist creating stunning visual experiences. Specializing in certificates, invitations, branding, and digital design." />
-    <meta name="author" content="Creative Designer" />
-
-    <!-- Creative Typography -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damodharan - Graphic Designer Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Space+Grotesk:wght@300;400;500;600;700&family=Abril+Fatface&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
-
-    <meta property="og:title" content="Creative Portfolio - Graphic Designer & UI/UX Expert" />
-    <meta property="og:description" content="Professional graphic designer and UI/UX specialist creating stunning visual experiences. View my portfolio of creative designs." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@portfolio" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Abril+Fatface&family=Dancing+Script:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
   </head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <body class="dark">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                    <h1>
+                        <span class="gradient-text">Damodharan</span><br>
+                        <span class="subtitle" style="font-family: 'Abril Fatface', serif;">Graphic Designer</span>
+                    </h1>
+                    <p>
+                        Transforming <strong>bold ideas</strong> into 
+                        <strong>stunning visual experiences</strong> through 
+                        innovative graphic design and user-centered UI/UX solutions.
+                    </p>
+                    <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+                        <a href="#works" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in">
+                    <div class="profile-img-wrapper">
+                        <img src="src/assets/profile-photo.jpg" alt="Damodharan - Creative Designer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item fade-in">
+                    <div class="icon">⚡</div>
+                    <div class="number">3+</div>
+                    <div class="label">Years Experience</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="icon">✨</div>
+                    <div class="number">100%</div>
+                    <div class="label">Client Satisfaction</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="icon">🚀</div>
+                    <div class="number">24/7</div>
+                    <div class="label">Creative Mindset</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>My <span class="gradient-text">Experience</span></h2>
+                <p>
+                    A journey of growth and creativity across graphic design and event management.
+                </p>
+            </div>
+
+            <div class="experience-content">
+                <!-- Graphic Designer Experience -->
+                <div class="experience-category fade-in">
+                    <h3 class="category-title">Graphic Designer</h3>
+                    <div class="experience-timeline">
+                        <div class="experience-item">
+                            <div class="experience-date">2021 - 2023</div>
+                            <div class="experience-details">
+                                <h4>Designer</h4>
+                                <p class="experience-company">School</p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="experience-date">July 2024 - August 2024</div>
+                            <div class="experience-details">
+                                <h4>Design Team Member</h4>
+                                <p class="experience-company">Yuvenza Club CIT</p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="experience-date">Nov 2024 - Jan 2025</div>
+                            <div class="experience-details">
+                                <h4>Graphic Designer Intern</h4>
+                                <p class="experience-company">Kaizenspark Tech Pvt Ltd.</p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="experience-date">2025</div>
+                            <div class="experience-details">
+                                <h4>Design Lead</h4>
+                                <p class="experience-company">
+                                    <span class="big-text">REVIL</span>
+                                    <span class="event-desc">(National Level Technical Symposium)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="experience-date">February 2025 - Present</div>
+                            <div class="experience-details">
+                                <h4>Creative Designer</h4>
+                                <p class="experience-company">ExploitX Club CIT</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Planning & Organizing Experience -->
+                <div class="experience-category fade-in">
+                    <h3 class="category-title">Event Planning & Organizing</h3>
+                    <div class="experience-timeline">
+                        <div class="experience-item">
+                            <div class="experience-date">Sept 2023</div>
+                            <div class="experience-details">
+                                <h4>Team Member - Crime Chronicles Event</h4>
+                                <p class="experience-company">
+                                    <span class="big-text">REVIL</span>
+                                    <span class="event-desc">(National Level Technical Symposium)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="experience-date">Feb 2025</div>
+                            <div class="experience-details">
+                                <h4>Sponsorship Team</h4>
+                                <p class="experience-company">
+                                    <span class="big-text">REVIL</span>
+                                    <span class="event-desc">(National Level Technical Symposium)</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="experience-date">Sept 2025</div>
+                            <div class="experience-details">
+                                <h4>Volunteer</h4>
+                                <p class="experience-company">India FOSS 2025</p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="experience-date">Feb 2025 - Present</div>
+                            <div class="experience-details">
+                                <h4>Creative & Operations</h4>
+                                <p class="experience-company">ExploitX Club CIT</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works Section -->
+    <section id="works" class="works">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>My <span class="gradient-text">Works</span></h2>
+                <p>
+                    Explore my portfolio of creative designs across various categories. 
+                    Each project represents a unique solution crafted with passion and precision.
+                </p>
+            </div>
+
+            <div class="works-grid" id="worksGrid">
+                <!-- Work items will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Expanded Work Modal -->
+    <div class="work-expanded" id="workExpanded">
+        <div class="work-expanded-content">
+            <button class="close-btn" id="closeExpanded">&times;</button>
+            <div class="expanded-header" id="expandedHeader">
+                <!-- Content will be inserted here -->
+            </div>
+            <div class="expanded-gallery" id="expandedGallery">
+                <!-- Gallery images will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>My <span class="gradient-text">Services</span></h2>
+                <p>
+                    Comprehensive design solutions tailored to your needs. 
+                    From concept to completion, I bring your vision to life.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">🎨</div>
+                    <h3>Graphic Design</h3>
+                    <p>Creating visually stunning designs that communicate your message effectively and leave a lasting impression.</p>
+                    <ul class="service-features">
+                        <li>Logo Design</li>
+                        <li>Brand Identity</li>
+                        <li>Marketing Materials</li>
+                        <li>Social Media Graphics</li>
+                        <li>Event Posters</li>
+                        <li>ID Card Design</li>
+                        <li>Political Party Banners</li>
+                        <li>Website & Mobile App Design</li>
+                    </ul>
+                </div>
+
+                <div class="service-card fade-in">
+                    <div class="service-icon">💻</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing user-centered digital experiences that are both beautiful and highly functional.</p>
+                    <ul class="service-features">
+                        <li>Website Design</li>
+                        <li>Mobile App Design</li>
+                        <li>Interactive Mockups</li>
+                        <li>User Research</li>
+                        <li>Wireframing & Prototyping</li>
+                        <li>User flow & Reseach</li>
+                    </ul>
+                </div>
+
+                <div class="service-card fade-in">
+                    <div class="service-icon">🎪</div>
+                    <h3>Event Planning & Organizing</h3>
+                    <p>Comprehensive event planning and organization services from concept to execution, ensuring memorable and flawlessly executed experiences.</p>
+                    <ul class="service-features">
+                        <li>Educational Events</li>
+                        <li>Sponsorship & Partnerships</li>
+                        <li>Event Promotion & Marketing</li>
+                        <li>Technical Events & Competitions</li>
+                        <li>Cultural Events</li>
+                        <li>Workshops & Seminars</li>
+                        <li>Conferences & Talks</li>
+                        <li>Hackathons & CTFs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Get In <span class="gradient-text">Touch</span></h2>
+                <p>
+                    Have a project in mind? Let's collaborate and create something amazing together.
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <form class="contact-form fade-in">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Damodharan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Portfolio Data with Multiple Images per Work
+        // Using placeholder.com for reliable sample images
+        const portfolioItems = [
+            {
+                id: 1,
+                title: "Professional Certificates",
+                category: "Certificates",
+                image: "src/assets/certificate-sample.jpg",
+                description: "Modern certificate design with elegant typography",
+                images: [
+                    "src/assets/certificate-sample.jpg",
+                    "https://via.placeholder.com/800x600/8B5CF6/FFFFFF?text=Certificate+Design+1",
+                    "https://via.placeholder.com/800x600/9333EA/FFFFFF?text=Certificate+Design+2",
+                    "https://via.placeholder.com/800x600/7C3AED/FFFFFF?text=Certificate+Design+3",
+                    "https://via.placeholder.com/800x600/6D28D9/FFFFFF?text=Certificate+Design+4",
+                    "https://via.placeholder.com/800x600/5B21B6/FFFFFF?text=Certificate+Design+5"
+                ]
+            },
+            {
+                id: 2,
+                title: "Invitations",
+                category: "Invitations",
+                image: "src/assets/invitation-sample.jpg",
+                description: "Elegant invitation designs for all occasions",
+                images: [
+                    "src/assets/invitation-sample.jpg",
+                    "https://via.placeholder.com/800x600/EC4899/FFFFFF?text=Wedding+Invitation+1",
+                    "https://via.placeholder.com/800x600/DB2777/FFFFFF?text=Wedding+Invitation+2",
+                    "https://via.placeholder.com/800x600/BE185D/FFFFFF?text=Wedding+Invitation+3",
+                    "https://via.placeholder.com/800x600/9F1239/FFFFFF?text=Wedding+Invitation+4"
+                ]
+            },
+            {
+                id: 3,
+                title: "Social Media Posters",
+                category: "Branding",
+                image: "src/assets/Social-media .avif",
+                description: "Attention-grabbing promotional graphics for social media platforms",
+                images: [
+                    "https://via.placeholder.com/800x600/06B6D4/FFFFFF?text=Brand+Logo",
+                    "https://via.placeholder.com/800x600/0891B2/FFFFFF?text=Brand+Colors",
+                    "https://via.placeholder.com/800x600/0E7490/FFFFFF?text=Brand+Typography",
+                    "https://via.placeholder.com/800x600/155E75/FFFFFF?text=Brand+Guidelines",
+                    "https://via.placeholder.com/800x600/164E63/FFFFFF?text=Brand+Applications"
+                ]
+            },
+            {
+                id: 4,
+                title: "ID Card Design",
+                category: "ID card",
+                image: "src/assets/ID-card.avif",
+                description: "Professional ID card crafted for clarity and elegance",
+                images: [
+                    "https://via.placeholder.com/800x600/10B981/FFFFFF?text=App+Screen+1",
+                    "https://via.placeholder.com/800x600/059669/FFFFFF?text=App+Screen+2",
+                    "https://via.placeholder.com/800x600/047857/FFFFFF?text=App+Screen+3",
+                    "https://via.placeholder.com/800x600/065F46/FFFFFF?text=App+Screen+4",
+                    "https://via.placeholder.com/800x600/064E3B/FFFFFF?text=App+Screen+5",
+                    "https://via.placeholder.com/800x600/022C22/FFFFFF?text=App+Screen+6"
+                ]
+            },
+            {
+                id: 5,
+                title: "Event Posters",
+                category: "Print Design",
+                image: "src/assets/event-poster.jpeg",
+                description: "Eye-catching event promotional material",
+                images: [
+                    "https://via.placeholder.com/800x600/F59E0B/FFFFFF?text=Poster+Design+1",
+                    "https://via.placeholder.com/800x600/D97706/FFFFFF?text=Poster+Design+2",
+                    "https://via.placeholder.com/800x600/B45309/FFFFFF?text=Poster+Design+3",
+                    "https://via.placeholder.com/800x600/92400E/FFFFFF?text=Poster+Design+4"
+                ]
+            },
+            {
+                id: 6,
+                title: "YouTube Thubmnails",
+                category: "Thubmnails",
+                image: "src/assets/youtube-thubmnail.avif",
+                description: "Designed for the spotlight",
+                images: [
+                    "https://via.placeholder.com/800x600/8B5CF6/FFFFFF?text=Achievement+1",
+                    "https://via.placeholder.com/800x600/9333EA/FFFFFF?text=Achievement+2",
+                    "https://via.placeholder.com/800x600/7C3AED/FFFFFF?text=Achievement+3",
+                    "https://via.placeholder.com/800x600/6D28D9/FFFFFF?text=Achievement+4",
+                    "https://via.placeholder.com/800x600/5B21B6/FFFFFF?text=Achievement+5"
+                ]
+            },
+            {
+                id: 7,
+                title: "Political Party Banners",
+                category: "Political Banners",
+                image: "src/assets/political-banner.webp",
+                description: "Visually bold banners for strong political messaging",
+                images: [
+                    "https://via.placeholder.com/800x600/3B82F6/FFFFFF?text=Event+Setup+1",
+                    "https://via.placeholder.com/800x600/2563EB/FFFFFF?text=Event+Setup+2",
+                    "https://via.placeholder.com/800x600/1D4ED8/FFFFFF?text=Event+Setup+3",
+                    "https://via.placeholder.com/800x600/1E40AF/FFFFFF?text=Event+Setup+4",
+                    "https://via.placeholder.com/800x600/1E3A8A/FFFFFF?text=Event+Setup+5"
+                ]
+            },
+            {
+                id: 8,
+                title: "Website & Mobile App Design",
+                category: "UI&UX Design",
+                image: "src/assets/uiux-design.avif",
+                description: "Intuitive and visually engaging interface designs focused on user experience.",
+                images: [
+                    "https://via.placeholder.com/800x600/EC4899/FFFFFF?text=Wedding+Setup+1",
+                    "https://via.placeholder.com/800x600/DB2777/FFFFFF?text=Wedding+Setup+2",
+                    "https://via.placeholder.com/800x600/BE185D/FFFFFF?text=Wedding+Setup+3",
+                    "https://via.placeholder.com/800x600/9F1239/FFFFFF?text=Wedding+Setup+4",
+                    "https://via.placeholder.com/800x600/831843/FFFFFF?text=Wedding+Setup+5"
+                ]
+            },
+            
+        ];
+
+        // Render Works
+        function renderWorks() {
+            const worksGrid = document.getElementById('worksGrid');
+
+            if (!worksGrid) {
+                console.error('Works grid element not found!');
+                return;
+            }
+
+            if (portfolioItems.length === 0) {
+                worksGrid.innerHTML = '<p style="text-align: center; color: var(--muted); grid-column: 1 / -1;">No works available.</p>';
+                return;
+            }
+
+            worksGrid.innerHTML = portfolioItems.map(item => `
+                <div class="work-card fade-in" data-id="${item.id}">
+                    <div class="work-card-header">
+                        <img src="${item.image}" alt="${item.title}" onerror="this.src='https://via.placeholder.com/800x600/8B5CF6/FFFFFF?text=${encodeURIComponent(item.title)}'">
+                    </div>
+                    <div class="work-card-content">
+                        <span class="category">${item.category}</span>
+                        <h3>${item.title}</h3>
+                        <p>${item.description}</p>
+                    </div>
+                </div>
+            `).join('');
+
+            // Add click event to each work card
+            document.querySelectorAll('.work-card').forEach(card => {
+                card.addEventListener('click', function() {
+                    const itemId = parseInt(this.dataset.id);
+                    const item = portfolioItems.find(i => i.id === itemId);
+                    if (item) {
+                        showExpandedWork(item);
+                    }
+                });
+            });
+        }
+
+        // Show Expanded Work
+        function showExpandedWork(item) {
+            const expanded = document.getElementById('workExpanded');
+            const header = document.getElementById('expandedHeader');
+            const gallery = document.getElementById('expandedGallery');
+
+            header.innerHTML = `
+                <span class="category">${item.category}</span>
+                <h2>${item.title}</h2>
+                <p>${item.description}</p>
+            `;
+
+            gallery.innerHTML = item.images.map((img, index) => `
+                <div class="gallery-item">
+                    <img src="${img}" alt="${item.title} - Image ${index + 1}" onerror="this.src='https://via.placeholder.com/800x600/8B5CF6/FFFFFF?text=Image+${index + 1}'">
+                </div>
+            `).join('');
+
+            expanded.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Close Expanded Work
+        function closeExpandedWork() {
+            const expanded = document.getElementById('workExpanded');
+            expanded.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Close button
+        document.getElementById('closeExpanded').addEventListener('click', closeExpandedWork);
+
+        // Close on background click
+        document.getElementById('workExpanded').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeExpandedWork();
+            }
+        });
+
+        // Close on ESC key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeExpandedWork();
+            }
+        });
+
+        // Scroll Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form Submission
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+
+        // Wait for DOM to be fully loaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', function() {
+                renderWorks();
+                // Re-observe fade-in elements after rendering
+                document.querySelectorAll('.fade-in').forEach(el => {
+                    observer.observe(el);
+                });
+            });
+        } else {
+            // DOM is already loaded
+            renderWorks();
+        }
+    </script>
   </body>
 </html>
